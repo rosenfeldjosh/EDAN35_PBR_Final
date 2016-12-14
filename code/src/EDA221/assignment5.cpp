@@ -82,7 +82,7 @@ void eda221::Assignment5::run()
 	auto const window_size = window->GetDimensions();
 	window->SetCamera(&mCamera);
 
-	glm::vec3 light_position = glm::vec3(15, 100, 15);
+	glm::vec3 light_position = glm::vec3(15, 1000, 15);
 	auto camera_position = mCamera.mWorld.GetTranslation();
 	auto const set_uniforms = [&light_position, &camera_position](GLuint program) {
 		glUniform3fv(glGetUniformLocation(program, "light_position"), 1, glm::value_ptr(light_position));
