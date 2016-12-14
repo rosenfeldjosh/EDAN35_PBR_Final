@@ -1,0 +1,14 @@
+# Target labels
+ assimp
+# Source files and their labels
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/assimp
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/assimp.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/assimp-complete.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-install.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-mkdir.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-download.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-update.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-patch.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-configure.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-build.rule

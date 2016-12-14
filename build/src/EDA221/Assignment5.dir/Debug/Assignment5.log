@@ -1,0 +1,8 @@
+﻿  assignment5.cpp
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(64): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(80): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(267): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(268): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(269): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\EDA221\assignment5.cpp(270): warning C4305: 'argument': truncation from 'double' to 'float'
+  Assignment5.vcxproj -> C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\src\EDA221\Debug\Assignment5.exe

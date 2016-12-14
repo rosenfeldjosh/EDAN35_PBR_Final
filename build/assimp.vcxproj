@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{78ED8679-BD69-3980-B378-2CB70D84E49B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>assimp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDA221/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E copy "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/bin/assimp-vc140-mt.dll" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/src/EDAN35/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-HC:/Users/admin/Documents/Visual Studio 2015/Graphics project/code" "-BC:/Users/admin/Documents/Visual Studio 2015/Graphics project/build" --check-stamp-file "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\glm\tmp\glm-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\imgui\tmp\imgui-cfgcmd.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\core\config.hpp.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-HC:/Users/admin/Documents/Visual Studio 2015/Graphics project/code" "-BC:/Users/admin/Documents/Visual Studio 2015/Graphics project/build" --check-stamp-file "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\glm\tmp\glm-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\imgui\tmp\imgui-cfgcmd.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\core\config.hpp.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-HC:/Users/admin/Documents/Visual Studio 2015/Graphics project/code" "-BC:/Users/admin/Documents/Visual Studio 2015/Graphics project/build" --check-stamp-file "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\ExternalProject.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\glm\tmp\glm-cfgcmd.txt.in;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindGit.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\share\cmake-3.7\Modules\RepositoryInfo.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\imgui\tmp\imgui-cfgcmd.txt.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\src\core\config.hpp.in;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/build"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/build"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/build"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-download.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\assimp-gitinfo.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-download.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\assimp-gitinfo.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-download.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\assimp-gitinfo.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-update.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-update.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -P "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/tmp/assimp-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-update.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-patch.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-patch.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-patch.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-DCMAKE_INSTALL_PREFIX:PATH=C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp" -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF "-GVisual Studio 14 2015 Win64" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-configure.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-DCMAKE_INSTALL_PREFIX:PATH=C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp" -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF "-GVisual Studio 14 2015 Win64" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-configure.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe "-DCMAKE_INSTALL_PREFIX:PATH=C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp" -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF "-GVisual Studio 14 2015 Win64" "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-configure.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\tmp\assimp-cfgcmd.txt;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-build.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-build.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-build.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\260ab2d9ece243a3e13c7c0fae411ffb\assimp-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-install.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-install.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe --build . --config RelWithDebInfo --target install
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/260ab2d9ece243a3e13c7c0fae411ffb/assimp-install.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\d364e5f5d3ca9d2d5b943615d381ba6e\assimp-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)/assimp-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/assimp-complete.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)/assimp-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/assimp-complete.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'assimp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E make_directory "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/$(Configuration)/assimp-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\admin\Downloads\Cmake\cmake-3.7.1-win64-x64\bin\cmake.exe -E touch "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp-stamp/$(Configuration)/assimp-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/assimp-complete.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-mkdir;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-download;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-update;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-patch;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-configure;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-build;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp-stamp\$(Configuration)\assimp-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\3cce606374cd2ce86fdc6eb28634a9dd\assimp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/assimp.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\assimp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/assimp.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\assimp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/assimp.rule;C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\$(Configuration)\assimp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\assimp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\CMakeFiles\assimp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/ZERO_CHECK.vcxproj">
+      <Project>411362ED-010C-3CC0-BB9C-A02D56091AB8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

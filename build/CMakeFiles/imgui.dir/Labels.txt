@@ -1,0 +1,14 @@
+# Target labels
+ imgui
+# Source files and their labels
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/imgui
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/imgui.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/imgui-complete.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-install.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-mkdir.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-download.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-update.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-patch.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-configure.rule
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/508c26c35f642ec658bbea52d7f38e6b/imgui-build.rule

@@ -1,0 +1,74 @@
+# CMake generation dependency list for this directory.
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/src/imgui/CMakeLists.txt
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineSystem.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeSystem.cmake.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/3.7.1/CMakeSystem.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineCXXCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-Determine-CXX.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineCompilerId.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCompilerIdDetection.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/ADSP-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/ARMCC-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/AppleClang-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Borland-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Clang-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Cray-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/GHS-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/GNU-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/HP-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/IAR-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Intel-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/MIPSpro-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/MSVC-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/PGI-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/PathScale-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/SCO-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/TI-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/Watcom-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/XL-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CompilerId/VS-10.vcxproj.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeFindBinUtils.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCXXCompiler.cmake.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Platform/Windows.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Platform/WindowsPaths.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCXXInformation.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineRCCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeRCCompiler.cmake.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/3.7.1/CMakeRCCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeRCInformation.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeTestRCCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeTestCXXCompiler.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeTestCompilerCommon.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineCompilerABI.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeDetermineCompileFeatures.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Internal/FeatureTesting.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/Compiler/MSVC-CXX-FeatureTests.cmake
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/feature_tests.cxx
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeCXXCompiler.cmake.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake

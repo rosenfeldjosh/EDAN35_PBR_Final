@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\imgui\build\CMakeFiles\dc44d2c84c25f343b6b6a9c36b5b6525\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A24F0068-7B19-3E43-88D8-BC0EB699A6A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

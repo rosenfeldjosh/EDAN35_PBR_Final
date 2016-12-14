@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFExporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\glTFExporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\assimp\src\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E3FAEA5-53A9-3A6E-ACCD-E7DACB4AE9E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DADABD3C-67E7-321F-925B-433A42E0BFE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{2451BAF5-76E6-3513-9284-02CAC420FD54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{7531C2E3-1891-3214-87BA-4BE5D8ED6791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{44B564CB-D65A-3A19-95BB-BD3F45B1F76C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{42CF87F1-01C7-3155-87A2-F99DA4BFF9F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{5592BB86-2E92-396C-909D-BC1C710891A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{5586F1CA-1E0C-3EC2-8A32-8A2079202E11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{5E076E64-C9DB-3F35-BEE8-16AA263473C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{5633A7CC-66A1-34BF-863A-129CF3DBF61C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{E497D119-766F-3463-A599-AEC917A0664A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{2F455756-3DA9-374D-964C-58F561B88270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{1021C398-702E-3456-B802-B371682794E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{9922AC94-78B1-3AAF-98ED-84E184FF5B7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{33267505-9F0C-38AC-9057-F3F709FED7EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{B7029D3C-9BD0-3379-A9E3-15803DCED155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{7BFD2B3A-B933-3D3E-97B6-C61BC367BED2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{0D6700B2-4805-3C59-A14E-9945581B1F8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{93F7CF67-8903-3264-94A8-2904136E78AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{C7FCBB45-747B-38FA-80DC-535D8B242771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{DE05923C-73D6-3279-98BF-51585C5336EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{8158C984-C729-39A2-91C5-9FAA62C39AA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{0609A4AC-CAA9-30D6-92FA-33ED514B7DCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{57F3F337-91F6-366D-8545-790405C97BBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{182C88EC-4357-30E1-BFF5-EDF32227A15D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{6E0E5E81-1703-3545-8732-77145A8CAACE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{50079FF5-9382-3C4C-A70E-796696270D8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{2C9F9F7C-3EA3-33FD-A885-AB4ABFB4CE15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{8312D71F-E6A0-3CFB-918A-8376F6B8CA58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{07A86958-22CB-31C9-A2B0-CC97106B14CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{DCDD4CDD-2627-3254-8DC9-41D0D70DDD42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{38909E16-B485-3464-934C-179C1A1C0A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{6A85A465-9D07-33D3-BA7A-F06A98A7F47B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{34D074B3-FD89-339B-B92E-70794B98D514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{C8841868-8136-3C21-8931-FB9C5660890C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{5F72B636-E725-3FE9-859F-2FF865DFC99B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{F223BA6C-2E61-3F70-BCE4-5F9FF6F1AC03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{DCC6944A-134F-38A5-B056-776DB1981527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{ECD82F32-B500-3D24-ACDA-19B9B944A801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{FB6F4163-F489-3517-A3DA-7928A42DDC9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{8F38BFDB-2AFD-3615-89BA-BB6AC2DF2C41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{C3217A85-FF04-368E-8D7D-8CDCF7D08627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{E4015149-5745-331D-B389-9ECCA9557281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{4FAE9EC8-FA06-3CDC-ADD7-BF736FDBC45E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{A1C0B94E-0AEA-3D92-8747-5EB776F30156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{8361302B-0E16-3D69-825C-CF3D95EF58AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{AF1A0858-30A3-3B1F-9DD0-13DC7120D198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{E57D1778-05ED-3C3D-B8B2-99E8D1C8B927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{44EB80F0-0FC7-3BDF-BBE8-2B8DB69AE580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{93E41CC8-C72A-3248-B325-AA4EC27A0D16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{3A03C3FB-4A64-319D-94AC-19A28B34B936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{DC734FE2-105F-37BF-908F-517EA431A7EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{D4814A1D-4A92-36E1-AF9F-451C2F891216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{A10159A8-AB8D-3B81-B5E4-F45475D504F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{919F3171-605B-3605-8B0E-DFE2132B3B15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{B37D7371-290B-325D-97D5-0548D99CED46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{C5942041-B00F-386C-8A4E-875BFFA88D3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{0BB407BF-EA79-37A5-908D-025CAC1B2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{6523933B-DEAE-3632-A725-9ED18B7A7AE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

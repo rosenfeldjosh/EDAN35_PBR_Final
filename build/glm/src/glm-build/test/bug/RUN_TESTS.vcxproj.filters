@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\glm\src\glm-build\CMakeFiles\f9294e5373567a1e6f7055181e90b002\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{637C7F71-ABD5-3AF8-AF52-C4C39163CFF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

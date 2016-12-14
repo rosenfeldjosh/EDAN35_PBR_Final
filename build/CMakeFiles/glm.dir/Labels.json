@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/glm"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/3cce606374cd2ce86fdc6eb28634a9dd/glm.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/d364e5f5d3ca9d2d5b943615d381ba6e/glm-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-install.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-download.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-update.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/CMakeFiles/a04c7e5657c5bc8cd62dddb3295bc34d/glm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "glm" ],
+		"name" : "glm"
+	}
+}

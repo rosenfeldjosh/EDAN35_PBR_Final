@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp/contrib/zlib/CMakeLists.txt
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckTypeSize.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFileCXX.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckFunctionExists.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckCSourceCompiles.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.c.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.c.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.c.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckTypeSize.c.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.c.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp/contrib/zlib/zlib.pc.cmakein
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/assimp/src/assimp/contrib/zlib/zconf.h.cmakein

@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/CMakeLists.txt
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/FindThreads.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.c.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/CMake/modules/FindVulkan.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/src/glfw3Config.cmake.in
+C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/share/cmake-3.7/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/src/glfw_config.h.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/src/glfw3.pc.in
+C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glfw/code/cmake_uninstall.cmake.in
