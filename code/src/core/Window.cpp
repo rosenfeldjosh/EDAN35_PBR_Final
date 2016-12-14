@@ -82,7 +82,7 @@ Window *Window::Create(std::string mTitle, unsigned int w, unsigned int h, unsig
 		LogWarning("A window named %s already exists", mTitle.c_str());
 		return nullptr;
 	}
-	Window *window = new Window(mTitle, w, h, msaa, fullscreen, resizable_, swap);
+	Window *window = new Window(mTitle, w, h, msaa, true, resizable_, swap);
 	if (window->mWindowGLFW == nullptr) {
 		delete window;
 		return nullptr;
@@ -108,7 +108,11 @@ std::string Window::GetTitle() const
 	return mTitle;
 }
 
-Window::Window(std::string mTitle_, unsigned w_, unsigned h_, unsigned int msaa_, bool fullscreen_, bool resizable_, SwapStrategy swap_) :
+Window::Window(std::string mTitle_, unsigned w_, unsigned h_, unsigned int msaa_, bool 
+
+
+
+_, bool resizable_, SwapStrategy swap_) :
 	mTitle(mTitle_), mWidth(w_), mHeight(h_), mMSAA(msaa_), mFullscreen(fullscreen_), mResizable(resizable_), mSwap(swap_), mWindowGLFW(nullptr), mInputHandler(nullptr), mCamera(nullptr)
 {
 	Show();
