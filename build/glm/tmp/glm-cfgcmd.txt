@@ -1,1 +1,0 @@
-cmd='C:/Users/admin/Downloads/Cmake/cmake-3.7.1-win64-x64/bin/cmake.exe;-GVisual Studio 14 2015 Win64;C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/glm/src/glm'

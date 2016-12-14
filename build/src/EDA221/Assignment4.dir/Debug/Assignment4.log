@@ -1,9 +1,0 @@
-﻿  Building Custom Rule C:/Users/admin/Documents/Visual Studio 2015/Graphics project/code/src/EDA221/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\src\EDA221\CMakeFiles\generate.stamp is up-to-date.
-  assignment4.cpp
-  node.cpp
-  helpers.cpp
-  interpolation.cpp
-  parametric_shapes.cpp
-  Generating Code...
-  Assignment4.vcxproj -> C:\Users\admin\Documents\Visual Studio 2015\Graphics project\build\src\EDA221\Debug\Assignment4.exe

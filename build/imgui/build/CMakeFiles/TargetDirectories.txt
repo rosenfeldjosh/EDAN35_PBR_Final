@@ -1,4 +1,0 @@
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/imgui.dir
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/INSTALL.dir
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/build/CMakeFiles/ZERO_CHECK.dir

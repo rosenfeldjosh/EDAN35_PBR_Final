@@ -1,7 +1,0 @@
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/lib/imgui.lib
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/imgui.h
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/imgui_internal.h
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/imconfig.h
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/stb_rect_pack.h
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/stb_textedit.h
-C:/Users/admin/Documents/Visual Studio 2015/Graphics project/build/imgui/include/stb_truetype.h
