@@ -1,4 +1,4 @@
-PBR with IPL Final project
+PBR with IBL Final project
 
 The project was built off of the EDA221 framework and made with Cmake. 
 
